@@ -1,0 +1,18 @@
+{
+  "name": "coinlayer-wrapper",
+  "version": "1.0.6",
+  "description": "A package to retrieve data from the CoinLayer Crypto API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "crypto"
+  ],
+  "author": "Arihant Tripathi",
+  "license": "ISC",
+  "dependencies": {
+    "node-superfetch": "^0.2.3"
+  }
+}
