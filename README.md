@@ -37,6 +37,12 @@ console.log(data)
 
 
 ```
+```
+List of all available country currencies: https://coinlayer.com/target
+
+List of all available crypto currencies: https://coinlayer.com/symbols
+
+```
 
 
 

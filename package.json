@@ -1,6 +1,6 @@
 {
   "name": "coinlayer-wrapper",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A package to retrieve data from the CoinLayer Crypto API",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,13 @@
   "license": "ISC",
   "dependencies": {
     "node-superfetch": "^0.2.3"
+  },
+
+  "repository": {
+
+    "type": "git",
+
+    "url": "git+https://github.com/Siris2314/node-coinlayer-wrapper"
+
   }
 }
