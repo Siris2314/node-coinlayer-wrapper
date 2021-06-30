@@ -2,6 +2,7 @@
 
 ### Existing Methods:
 * livedata(currency,crypto) - Returns Live Cryptocurrency Data
+* histdata(data, currency, crypto) - Returns Historical Data from 2011 - Date Given
 ### Setup:
 
 ```javascript
@@ -36,6 +37,20 @@ console.log(data)
 }
 
 
+
+
+```
+### Historical Data Example
+```js
+
+const date = '2018-04-29'
+const cur = 'usd';
+const cryp = 'btc';
+const data = coin.histdata(date,cur, cryp)
+
+console.log(data)
+
+
 ```
 ```
 List of all available country currencies: https://coinlayer.com/target
@@ -43,6 +58,9 @@ List of all available country currencies: https://coinlayer.com/target
 List of all available crypto currencies: https://coinlayer.com/symbols
 
 ```
+
+###Quick Note:
+If you get a socket error, it's on the API side,it has been going on and off, so just keep that in mind
 
 
 
