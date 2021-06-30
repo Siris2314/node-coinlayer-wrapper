@@ -1,5 +1,12 @@
 ## A node wrapper for the CoinLayer Crypto API.
 
+### Installation: 
+npm:https://www.npmjs.com/package/coinlayer-wrapper 
+
+npm i coinlayer-wrapper
+
+
+
 ### Existing Methods:
 * livedata(currency,crypto) - Returns Live Cryptocurrency Data
 * histdata(data, currency, crypto) - Returns Historical Data from 2011 - Date Given
@@ -57,10 +64,11 @@ List of all available country currencies: https://coinlayer.com/target
 
 List of all available crypto currencies: https://coinlayer.com/symbols
 
+Quick Note:
+If you get a socket error, it's on the API side,it has been going on and off, so just keep that in mind
+
 ```
 
-###Quick Note:
-If you get a socket error, it's on the API side,it has been going on and off, so just keep that in mind
 
 
 
