@@ -1,4 +1,11 @@
 ## A node wrapper for the CoinLayer Crypto API.
+[![npm](https://img.shields.io/npm/v/coinlayer-wrapper.svg)](https://www.npmjs.com/package/coinlayer-wrapper)
+[![npm](https://img.shields.io/npm/dt/coinlayer-wrapper.svg?maxAge=3600)](https://www.npmjs.com/package/coinlayer-wrapper)
+[![install size](https://packagephobia.com/badge?p=coinlayer-wrapper)](https://packagephobia.com/result?p=coinlayer-wrapper)
+
+
+[![NPM](https://nodei.co/npm/coinlayer-wrapper.png)](https://nodei.co/npm/coinlayer-wrapper/)
+
 
 ### Installation: 
 npm:https://www.npmjs.com/package/coinlayer-wrapper 
