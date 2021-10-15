@@ -1,10 +1,13 @@
 const request = require("node-superfetch");
 
 
-
+/**
+* Coinlayer wrapper to retreive data about crypto.
+*/
 class crypto{
+
     /**
-     * 
+     * Sets token variable, for future usage.
      * @param {String} token 
      */
     constructor(token){
@@ -14,10 +17,11 @@ class crypto{
     }
 
     /**
+     * Retreive live data of of the supplied currency
+     * 
      * @param {String} currency
      * @param {String} coin
      */
-
      async livedata(currency,data){
 
       try{
@@ -48,6 +52,14 @@ class crypto{
       }
 
      }
+
+
+    /**
+     * History Data, gets the data of a cypto
+     * @param {String} date 
+     * @param {String} currency 
+     * @param {String} crypto 
+     */
      async histdata(date,currency,crypto){
         const url = `http://api.coinlayer.com/${date}?access_key=${this.token}&target=${currency}&symbols=${crypto}&expand=1`
 
